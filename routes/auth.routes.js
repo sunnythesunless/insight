@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const passport = require('passport');
+const { googleAuth } = require('../controllers/googleAuth.controller');
 
 const {
   register,
@@ -28,5 +30,21 @@ router.post('/forgot-password', forgotPasswordValidator, forgotPassword);
 router.post('/reset-password/:token', resetPasswordValidator, resetPassword);
 router.post('/refresh', refreshToken);
 router.post('/logout',protect, logout);
+
+
+
+router.get(
+  '/google',
+  passport.authenticate('google', {
+    scope: ['profile', 'email'],
+  })
+);
+
+router.get(
+  '/google/callback',
+  passport.authenticate('google', { session: false }),
+  googleAuth
+);
+
 
 module.exports = router;

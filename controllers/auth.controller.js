@@ -75,9 +75,12 @@ exports.login = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Invalid credentials' });
     }
 
-    if (!user.isVerified) {
-      return res.status(401).json({ success: false, message: 'Please verify your email first' });
-    }
+    if (user.provider === 'local' && !user.isVerified) {
+  return res.status(401).json({
+    success: false,
+    message: 'Please verify your email first',
+  });
+}
 
     const accessToken = generateAccessToken(user);
     const refreshToken = generateRefreshToken(user);
