@@ -1,0 +1,21 @@
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'workspaceId')\n    at verifyWorkspace (E:\\auth-2\\middleware\\auth.js:34:32)\n    at Layer.handleRequest (E:\\auth-2\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\auth-2\\node_modules\\router\\lib\\route.js:157:13)\n    at adminOnly (E:\\auth-2\\middleware\\auth.js:29:42)\n    at Layer.handleRequest (E:\\auth-2\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\auth-2\\node_modules\\router\\lib\\route.js:157:13)\n    at protect (E:\\auth-2\\middleware\\auth.js:21:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2026-01-28T09:10:13.602Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:13:13.011Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:13:13.016Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:15:42.709Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:15:42.716Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:15:46.265Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:15:46.273Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:17:48.277Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:17:48.282Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:18:58.863Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:18:58.871Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:19:46.529Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T11:19:46.534Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:13:58.563Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:13:58.575Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:14:01.511Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:14:01.520Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:16:29.189Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:16:29.200Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:25:18.090Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2026-01-28T12:25:18.096Z"}
